@@ -3,6 +3,7 @@ import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
 import demo from '../views/demo.vue'
 import PokemonDetails from '../views/PokemonDetails.vue'
+import BlindTest from '../views/BlindTest.vue'
 
 Vue.use(VueRouter)
 
@@ -12,7 +13,12 @@ const routes = [
     name: 'Home',
     component: Home
   },
-
+  
+  {
+    path: '/blindtest',
+    name: 'BlindTest',
+    component: BlindTest
+  },
 
 
   {
